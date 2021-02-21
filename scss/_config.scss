@@ -1,6 +1,6 @@
-$primary-color: #444;
-//$primary-color: rgba(116, 128, 196, 0.671);
-$secondary-color: rgba(247, 247, 99, 0.933);
+$primary-color: #2D283E ;
+//$primary-color: rgba(116, 128, 196, 0.671); #444
+$secondary-color: #802BB1;
 //$secondary-color: rgba(13, 36, 163, 0.933);
 $show-home-image: true;
 $home-image: url(../img/bg1.jpg);
@@ -8,7 +8,7 @@ $background-opacity: 0.9;
 
 @mixin easeOut {
     transition:all 0.5s ease-out;
-}
+}  
 @mixin background {
     @if $show-home-image{
         &#bg-img {       
