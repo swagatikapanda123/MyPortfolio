@@ -108,6 +108,10 @@ main{
     }
 }
 
+.view:hover{
+    background: lighten($primary-color, 5);
+}
+
 //work/projects
 
 .projects{

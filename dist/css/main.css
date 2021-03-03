@@ -55,9 +55,10 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/swagatika11.jpg");
+      background: url("../img/profile2.jpg");
       border-radius: 50%;
-      border: solid 3px #802BB1; }
+      border: solid 3px #802BB1;
+      background-size: 250px 250px; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -181,6 +182,9 @@ main {
     background: #38324e;
     padding: 0.5rem;
     border-bottom: #802BB1 4px solid; }
+
+.view:hover {
+  background: #38324e; }
 
 .projects {
   display: grid;
